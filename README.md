@@ -21,7 +21,7 @@ El sistema utiliza una diadema **NeuroSky MindWave Mobile 2** para capturar la a
 
 El proyecto está modularizado en tres fases principales:
 
-* `📁 1_captura_bci/`
+* `📁 1_captura/`
   Contiene los scripts de Python de la arquitectura concurrente. 
   * `mindwave.py`: Capa de comunicación Bluetooth para decodificación de paquetes del hardware.
   * `grabadora.py`: Implementación de hilos concurrentes para la captura, procesamiento espectral y almacenamiento en crudo.
@@ -35,9 +35,4 @@ El proyecto está modularizado en tres fases principales:
 * `📁 3_datasets/`
   Conjuntos de datos experimentales recopilados durante la investigación. Contiene los CSV de la señal electroencefalográfica y las respuestas tabuladas de los instrumentos psicométricos.
 
-## 🔬 Ética y Ciencia Abierta (Open Science)
-
-Con el objetivo de fomentar la transparencia algorítmica y la reproducibilidad, este repositorio libera el código fuente y el conjunto de datos bajo un enfoque de ciencia abierta. 
-
-**Aviso de Privacidad:** Para garantizar la integridad y privacidad de los usuarios de prueba, la base de datos neurofisiológica y psicométrica contenida en `3_datasets/` ha sido **estrictamente anonimizada**. Los sujetos de prueba han sido mapeados bajo los identificadores genéricos **P1 al P5**, desvinculando cualquier identificador personal de los registros biométricos.
 
